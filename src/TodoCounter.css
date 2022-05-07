@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+   background-image: url("https://i.pinimg.com/originals/15/e7/e3/15e7e300166c962d3b8a22f60b5cac9e.gif");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.container{
+    width: 450px;
+    margin-left: 120px;
+}
+.TodoCounter1{
+    font-size: 70px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5px;
+}
+.TodoCounter{
+    margin-top: -70px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 400px;
+    border-radius: 40px;
+    padding: 20px;
+    
+}
+img{
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

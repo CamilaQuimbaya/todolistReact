@@ -1,0 +1,53 @@
+.input{
+    margin-top: 30px;
+    margin-left: 800px;
+    width: 450px;
+    height: 80px;
+    border-radius: 40px;
+    background: rgba(255, 70, 246, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border: 1px solid rgba(255, 255, 255, 0.658);
+    color: aliceblue;
+
+}
+
+.input::placeholder{
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: poppins, sans-serif;
+}
+input:focus{
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 20px;
+    border-color: pink;
+    outline-color: rgb(243, 151, 255);
+}
+
+.title1{
+    position: absolute;
+    top: 17%;
+    right: 24%;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border: 1px solid rgba(255, 255, 255, 0.233);
+    padding: 20px;
+    border-radius: 40px;
+
+}
+.palabra{
+    position: absolute;
+    top: 45%;
+    right: 35%;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
